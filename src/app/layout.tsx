@@ -7,12 +7,12 @@ import "./globals.css";
 const inter = Space_Grotesk({ subsets: ["latin"], weight: ["500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Ramazan - Full Stack Developer",
+  title: "Jason Martinez - Full Stack Developer",
   description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies, React, Next.js, and innovative digital solutions.",
-  keywords: "Muhammad Ramazan, Full Stack Developer, React, Next.js, Web Development, Portfolio",
-  authors: [{ name: "Muhammad Ramazan" }],
+  keywords: "Jason Martinez, Full Stack Developer, React, Next.js, Web Development, Portfolio",
+  authors: [{ name: "Jason Martinez" }],
   openGraph: {
-    title: "Muhammad Ramazan - Full Stack Developer",
+    title: "Jason Martinez - Full Stack Developer",
     description: "Portfolio of Muhammad Ramazan, a passionate full-stack developer specializing in modern web technologies.",
     type: "website",
   },
