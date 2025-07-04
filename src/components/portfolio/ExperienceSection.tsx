@@ -10,7 +10,7 @@ const experience = [
     company: "DaCodes",
     period: "March 2025 — Present",
     type: "Freelance",
-    companyIcon: "fa6-brands:square-upwork",
+    companyIcon: "mingcute:building-2-line",
     companyColor: "from-green-500 to-green-600",
     description: "I implemented communication flows with ChatGPT by developing efficient APIs in .NET to process requests/responses with the OpenAI API, integrated MongoDB to store conversation histories and contextual data, improving the user experience with dynamic interfaces in Vue.js with real-time rendering of AI-generated responses.",
     achievements: [

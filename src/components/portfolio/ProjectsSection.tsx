@@ -7,73 +7,49 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    title: "Checkersvip.com",
-    subtitle: "Professional Online Checkers Platform",
-    description: "A comprehensive multiplayer American checkers platform designed for competitive play with real-time communication capabilities. Currently undergoing official recognition process with the American Checkers Federation (ACF).",
-    features: [
-      "Real-time multiplayer gameplay with WebSocket technology",
-      "Advanced drag-and-drop game mechanics using DnDKit",
-      "Live chat system with emoji support and moderation",
-      "Player ranking and tournament management system",
-      "Spectator mode with real-time game observation",
-      "Mobile-responsive design for cross-platform play",
-      "Game replay and analysis tools",
-      "Social features including friend lists and challenges"
-    ],
-    deliverables: [
-      "Fully functional web application deployed on production",
-      "Real-time multiplayer game engine",
-      "User authentication and profile management",
-      "Admin dashboard for game moderation",
-      "Tournament management system",
-      "Mobile-optimized responsive interface",
-      "Integration with payment systems for premium features"
-    ],
-    tech: ["Next.js", "NextUI", "Tailwind CSS", "DnDKit", "Fastify", "Redis", "Socket.io", "PostgreSQL", "Prisma", "JWT Authentication", "Stripe API"],
-    github: "https://github.com",
-    live: "https://checkersvip.com",
+    title: "Azzule Systems",
+    subtitle: "A client of DaCodes",
+    description: "Azzule is a leading provider of cloud-based data management and compliance solutions for the food supply chain. Specializing in food safety, sustainability, and audit automation, Azzule helps growers, packers, and distributors streamline regulatory compliance, risk management, and operational efficiency.",
+    live: "https://azzule.com/",
+    gradient: "from-purple-400 to-pink-500",
+    status: "Live",
+    category: "Web Application",
+    highlight: "IA Assistant",
+    clientType: "Supply Chain Program"
+  },
+  {
+    title: "Volkswagen México",
+    subtitle: "A client of Telepro by PFS",
+    description: "Volkswagen Financial Services México is the financial arm of Volkswagen Group in Mexico, providing tailored financing and insurance solutions for customers and dealers. Established to support sales of Volkswagen, Audi, SEAT, and other group brands, it plays a key role in facilitating vehicle purchases and leasing in the Mexican market.",
+    live: "https://www.vwfs.mx/",
+    gradient: "from-orange-400 to-red-500",
+    status: "Live",
+    category: "Web Application",
+    highlight: "Credit Bureau Report",
+    clientType: "Auto Credit Industry"
+  },
+  {
+    title: "OhhFiles",
+    subtitle: "A client of Ehecatl",
+    description: "OhhFiles designed primarily for patients undergoing bariatric surgery or obesity treatment to track their medical and personal health data. The platform allows users to upload and monitor their health metrics, creating a historical and graphical self-record to support long-term lifestyle changes and medical follow-ups",
+    live: "https://ohhfiles.com/",
     gradient: "from-blue-500 to-cyan-500",
     status: "Live",
     category: "Web Application",
     highlight: "Featured",
-    timeline: "6 months",
-    clientType: "Gaming Industry"
+    clientType: "Medical Industry"
   },
   {
-    title: "AskRudy.ai",
-    subtitle: "AI-Powered Document Intelligence Platform",
-    description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
-    features: [
-      "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
-      "Multi-format document support (PDF, DOCX, TXT, images)",
-      "OpenAI GPT-4 Vision integration for screenshot analysis",
-      "Real-time multilingual translation (50+ languages)",
-      "Intelligent document chunking and vector embeddings",
-      "Conversational AI with context-aware responses",
-      "Document highlighting and annotation tools",
-      "Export capabilities for translations and summaries",
-      "Collaborative workspace for team document analysis"
-    ],
-    deliverables: [
-      "Production-ready AI chatbot platform",
-      "Document processing pipeline with OCR capabilities",
-      "Multi-language translation engine",
-      "User dashboard with document management",
-      "Subscription management with Stripe integration",
-      "API documentation and integration guides",
-      "Mobile-responsive Progressive Web App",
-      "Analytics dashboard for usage tracking"
-    ],
-    tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
-    github: "https://github.com",
-    live: "https://askrudy.ai",
-    gradient: "from-purple-500 to-pink-500",
+    title: "MediGer",
+    subtitle: "A client of Ehecatl",
+    description: "MediGer is a specialized care center in Mexico City dedicated to comprehensive support for older adults, particularly those facing memory issues or dementia. They focus on combining medical expertise with empathetic, human-centered servic",
+    live: "https://mediger.mx/",
+    gradient: "from-green-400 to-emerald-500",
     status: "Live",
-    category: "AI Platform",
+    category: "Web Application",
     highlight: "Featured",
-    timeline: "8 months",
-    clientType: "EdTech & Enterprise"
-  }
+    clientType: "Medical Industry"
+  },
 ];
 
 export default function ProjectsSection() {
@@ -245,9 +221,9 @@ export default function ProjectsSection() {
                         {project.status}
                       </motion.span>
 
-                      <span className="px-2.5 py-1.5 md:px-4 md:py-2 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full text-white text-xs md:text-sm font-medium">
+                      {/* <span className="px-2.5 py-1.5 md:px-4 md:py-2 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full text-white text-xs md:text-sm font-medium">
                         {project.timeline}
-                      </span>
+                      </span> */}
 
                       <span className="hidden sm:inline-block px-2.5 py-1.5 md:px-4 md:py-2 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full text-white text-xs md:text-sm font-medium">
                         {project.clientType}
@@ -270,30 +246,31 @@ export default function ProjectsSection() {
                     {/* Action Buttons */}
                     <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
                       <Link
-                        href={project.github}
+                        target="_blank"
+                        href={project.live}
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white/20 backdrop-blur-sm border border-white/30 text-white rounded-lg md:rounded-xl hover:bg-white/30 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
                       >
-                        <Icon icon="solar:code-bold" width={18} height={18} className="md:w-5 md:h-5" />
-                        <span>View Repository</span>
+                        <Icon icon="solar:arrow-right-broken" width={18} height={18} className="md:w-5 md:h-5" />
+                        <span>Visit website</span>
                       </Link>
 
-                      <Link
+                      {/* <Link
                         href={project.live}
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white text-gray-900 rounded-lg md:rounded-xl hover:bg-gray-100 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
                       >
                         <Icon icon="solar:arrow-up-outline" width={18} height={18} className="md:w-5 md:h-5" />
                         <span>Live Demo</span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
 
                 {/* Project Details Content */}
-                <div className="p-4 sm:p-6 md:p-8 lg:p-10">
-                  <div className="grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
+                {/* <div className="p-4 sm:p-6 md:p-8 lg:p-10">
+                  <div className="grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12"> */}
 
                     {/* Features Section */}
-                    <div>
+                    {/* <div>
                       <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 flex items-center gap-2 md:gap-3">
                         <div className="p-1.5 md:p-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg md:rounded-xl">
                           <Icon icon="solar:settings-bold" className="text-white w-[18px] h-[18px] md:w-6 md:h-6" />
@@ -317,10 +294,10 @@ export default function ProjectsSection() {
                           </motion.li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
 
                     {/* Deliverables Section */}
-                    <div className="mt-6 lg:mt-0">
+                    {/* <div className="mt-6 lg:mt-0">
                       <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 flex items-center gap-2 md:gap-3">
                         <div className="p-1.5 md:p-2 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg md:rounded-xl">
                           <Icon icon="solar:delivery-bold" className="text-white w-[18px] h-[18px] md:w-6 md:h-6" />
@@ -345,10 +322,10 @@ export default function ProjectsSection() {
                         ))}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Tech Stack Section */}
-                  <div className="mt-6 md:mt-8 lg:mt-12 pt-6 md:pt-8 border-t border-gray-200/50 dark:border-gray-700/50">
+                  {/* <div className="mt-6 md:mt-8 lg:mt-12 pt-6 md:pt-8 border-t border-gray-200/50 dark:border-gray-700/50">
                     <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 flex items-center gap-2 md:gap-3">
                       <div className="p-1.5 md:p-2 bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg md:rounded-xl">
                         <Icon icon="solar:code-bold" className="text-white w-[18px] h-[18px] md:w-6 md:h-6" />
@@ -368,9 +345,9 @@ export default function ProjectsSection() {
                           {tech}
                         </motion.span>
                       ))}
-                    </div>
-                  </div>
-                </div>
+                    </div> */}
+                  {/* </div> 
+                </div> */}
               </div>
             </motion.div>
           ))}
