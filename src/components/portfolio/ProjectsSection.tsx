@@ -36,7 +36,7 @@ const projects = [
     gradient: "from-blue-500 to-cyan-500",
     status: "Live",
     category: "Web Application",
-    highlight: "Featured",
+    highlight: "Release",
     clientType: "Medical Industry"
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     gradient: "from-green-400 to-emerald-500",
     status: "Live",
     category: "Web Application",
-    highlight: "Featured",
+    highlight: "Release",
     clientType: "Medical Industry"
   },
 ];

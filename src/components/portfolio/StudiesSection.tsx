@@ -246,7 +246,7 @@ const FeaturedTestimonial = ({ testimonial }: FeaturedTestimonialProps) => (
   </motion.div>
 );
 
-export default function TestimonialsSection() {
+export default function StudiesSection() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const featuredTestimonial = testimonials.find(t => t.featured);
   const otherTestimonials = testimonials.filter(t => !t.featured);

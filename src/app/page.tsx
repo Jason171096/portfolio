@@ -11,6 +11,7 @@ import {
   OverviewSection,
   ProjectsSection,
   TechStackSection,
+  StudiesSection,
 } from "@/components/portfolio";
 
 export default function Portfolio() {
@@ -38,8 +39,8 @@ export default function Portfolio() {
         {/* Projects Section */}
         <ProjectsSection />
 
-        {/* Testimonials Section */}
-        {/* <TestimonialsSection /> */}
+        {/* Studies Section */}
+        <StudiesSection />
 
         {/* Certifications Section */}
         <CertificationsSection />
