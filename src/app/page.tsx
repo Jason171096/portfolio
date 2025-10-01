@@ -40,7 +40,7 @@ export default function Portfolio() {
         <ProjectsSection />
 
         {/* Studies Section */}
-        <StudiesSection />
+        {/* <StudiesSection /> */}
 
         {/* Certifications Section */}
         <CertificationsSection />
