@@ -11,7 +11,7 @@ import {
   OverviewSection,
   ProjectsSection,
   TechStackSection,
-  StudiesSection,
+  // StudiesSection,
 } from "@/components/portfolio";
 
 export default function Portfolio() {
