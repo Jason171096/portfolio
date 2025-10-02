@@ -71,9 +71,9 @@ export default function HeroSection() {
           transition={{ delay: 1.0 }}
         >
           {[
-            { href: "https://github.com/lightify97", icon: "simple-icons:github", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
-            { href: "https://linkedin.com/in/m-ramazan", icon: "skill-icons:linkedin", label: "LinkedIn", color: "hover:text-blue-600" },
-            { href: "mailto:lightify6@gmail.com", icon: "material-icon-theme:email", label: "Email", color: "hover:text-green-600" }
+            { href: "https://github.com/Jason171096", icon: "simple-icons:github", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
+            { href: "https://www.linkedin.com/in/jm-jason-martinez/", icon: "skill-icons:linkedin", label: "LinkedIn", color: "hover:text-blue-600" },
+            { href: "mailto:bboyace10@gmail.com", icon: "material-icon-theme:email", label: "Email", color: "hover:text-green-600" }
           ].map((link) => (
             <motion.div key={link.label} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
