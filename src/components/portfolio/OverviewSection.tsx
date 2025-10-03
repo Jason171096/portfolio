@@ -114,7 +114,7 @@ export default function OverviewSection() {
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
                       A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
                       <span className="font-bold text-purple-600 dark:text-purple-400">
-                        &nbsp; AI enthusiast</span> with
+                        &nbsp; AI Engineer</span> with
                       <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
                       digital experiences that users love.
                     </p>
@@ -192,7 +192,7 @@ export default function OverviewSection() {
                       <Icon icon="solar:hospital-bold" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">HIMS Master Trainer</h4>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">IA Engineer</h4>
                       <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">Public Health Organization</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2019 — Present</p>
                     </div>
@@ -241,7 +241,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">jason_mm.dev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">jasonmartinez.bio</div>
                   </div>
                 </motion.div>
 

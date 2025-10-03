@@ -2,7 +2,7 @@
 
 import {
   Background,
-  CertificationsSection,
+  // CertificationsSection,
   ContactSection,
   ExperienceSection,
   Footer,
@@ -43,7 +43,7 @@ export default function Portfolio() {
         {/* <StudiesSection /> */}
 
         {/* Certifications Section */}
-        <CertificationsSection />
+        {/* <CertificationsSection /> */}
 
         {/* Contact Section */}
         <ContactSection />
