@@ -182,7 +182,7 @@ export default function OverviewSection() {
                   </div>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={itemVariants}
                   whileHover={{ scale: 1.02, y: -5 }}
                   className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-green-50/80 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 backdrop-blur-sm border border-green-200/50 dark:border-green-800/30 shadow-xl flex flex-col"
@@ -205,7 +205,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
                   </div>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </motion.div>
