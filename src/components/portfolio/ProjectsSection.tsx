@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import SectionHeader from "./SectionHeader";
+import Image from 'next/image'
 
 const projects = [
   {
@@ -11,7 +12,7 @@ const projects = [
     subtitle: "A client of DaCodes",
     description: "Azzule is a leading provider of cloud-based data management and compliance solutions for the food supply chain. Specializing in food safety, sustainability, and audit automation, Azzule helps growers, packers, and distributors streamline regulatory compliance, risk management, and operational efficiency.",
     live: "https://azzule.com/",
-    gradient: "from-purple-400 to-pink-500",
+    image: "/images/azzule.png",
     status: "Live",
     category: "Web Application",
     highlight: "IA Assistant",
@@ -22,7 +23,7 @@ const projects = [
     subtitle: "A client of Telepro by PFS",
     description: "Volkswagen Financial Services México is the financial arm of Volkswagen Group in Mexico, providing tailored financing and insurance solutions for customers and dealers. Established to support sales of Volkswagen, Audi, SEAT, and other group brands, it plays a key role in facilitating vehicle purchases and leasing in the Mexican market.",
     live: "https://www.vwfs.mx/",
-    gradient: "from-orange-400 to-red-500",
+    image: "/images/vwfs.png",
     status: "Live",
     category: "Web Application",
     highlight: "Credit Bureau Report",
@@ -33,7 +34,7 @@ const projects = [
     subtitle: "A client of Ehecatl",
     description: "OhhFiles designed primarily for patients undergoing bariatric surgery or obesity treatment to track their medical and personal health data. The platform allows users to upload and monitor their health metrics, creating a historical and graphical self-record to support long-term lifestyle changes and medical follow-ups",
     live: "https://ohhfiles.com/",
-    gradient: "from-blue-500 to-cyan-500",
+    image: "/images/ohhfiles.png",
     status: "Live",
     category: "Web Application",
     highlight: "Release",
@@ -44,7 +45,7 @@ const projects = [
     subtitle: "A client of Ehecatl",
     description: "MediGer is a specialized care center in Mexico City dedicated to comprehensive support for older adults, particularly those facing memory issues or dementia. They focus on combining medical expertise with empathetic, human-centered servic",
     live: "https://mediger.mx/",
-    gradient: "from-green-400 to-emerald-500",
+    image: "/images/mediger.png",
     status: "Live",
     category: "Web Application",
     highlight: "Release",
@@ -149,7 +150,8 @@ export default function ProjectsSection() {
               <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl rounded-2xl md:rounded-3xl border border-white/30 dark:border-gray-700/40 hover:border-gray-300 dark:hover:border-gray-600 transition-all duration-500 overflow-hidden shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl">
 
                 {/* Project Header with Gradient */}
-                <div className={`relative bg-gradient-to-br ${project.gradient} p-4 sm:p-6 md:p-8 lg:p-10`}>
+                <div className={`relative bg-gradient-to-br p-4 sm:p-6 md:p-8 lg:p-10`}>
+                  <Image src={project.image} className="opacity-25" objectFit="cover" layout="fill" alt="Picture of the author" />
                   {/* Animated background pattern */}
                   <div className="absolute inset-0 opacity-10">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.3)_1px,transparent_1px)] bg-[length:20px_20px] md:bg-[length:30px_30px]" />
@@ -235,10 +237,10 @@ export default function ProjectsSection() {
                       <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-2 leading-tight">
                         {project.title}
                       </h3>
-                      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 font-medium mb-3 md:mb-4">
+                      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium mb-3 md:mb-4">
                         {project.subtitle}
                       </p>
-                      <p className="text-white/80 text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl">
+                      <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl">
                         {project.description}
                       </p>
                     </div>
