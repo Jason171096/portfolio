@@ -10,7 +10,7 @@ import {
   Navigation,
   OverviewSection,
   ProjectsSection,
-  TechStackSection,
+  // TechStackSection,
   // StudiesSection,
 } from "@/components/portfolio";
 
@@ -31,7 +31,7 @@ export default function Portfolio() {
         <OverviewSection />
 
         {/* Tech Stack Section */}
-        <TechStackSection />
+        {/* <TechStackSection /> */}
 
         {/* Experience Section */}
         <ExperienceSection />
