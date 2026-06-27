@@ -9,47 +9,47 @@ import Image from 'next/image'
 const projects = [
   {
     title: "Azzule Systems",
-    subtitle: "A client of DaCodes",
-    description: "Azzule is a leading provider of cloud-based data management and compliance solutions for the food supply chain. Specializing in food safety, sustainability, and audit automation, Azzule helps growers, packers, and distributors streamline regulatory compliance, risk management, and operational efficiency.",
+    subtitle: "AI-Powered Compliance Automation",
+    description: "Developed an AI assistant using ChatGPT and .NET APIs, automating food safety audits and streamlining MongoDB pipelines.",
     live: "https://azzule.com/",
     image: "/images/azzule.png",
     status: "Live",
     category: "Web Application",
-    highlight: "IA Assistant",
-    clientType: "Supply Chain Program"
+    highlight: "AI Assistant",
+    clientType: "Supply Chain"
   },
   {
     title: "Volkswagen México",
-    subtitle: "A client of Telepro by PFS",
-    description: "Volkswagen Financial Services México is the financial arm of Volkswagen Group in Mexico, providing tailored financing and insurance solutions for customers and dealers. Established to support sales of Volkswagen, Audi, SEAT, and other group brands, it plays a key role in facilitating vehicle purchases and leasing in the Mexican market.",
+    subtitle: "Credit Risk Automation Engine",
+    description: "Engineered secure Credit Bureau integration APIs using ASP.NET and Azure, automating auto-credit evaluation workflows.",
     live: "https://www.vwfs.mx/",
     image: "/images/vwfs.png",
     status: "Live",
     category: "Web Application",
-    highlight: "Credit Bureau Report",
-    clientType: "Auto Credit Industry"
+    highlight: "Credit Evaluation",
+    clientType: "Automotive"
   },
   {
     title: "OhhFiles",
-    subtitle: "A client of Ehecatl",
-    description: "OhhFiles designed primarily for patients undergoing bariatric surgery or obesity treatment to track their medical and personal health data. The platform allows users to upload and monitor their health metrics, creating a historical and graphical self-record to support long-term lifestyle changes and medical follow-ups",
+    subtitle: "Medical Health-Tracking Platform",
+    description: "Built a patient tracking web app in React, featuring secure file uploads and dynamic data visualizations.",
     live: "https://ohhfiles.com/",
     image: "/images/ohhfiles.png",
     status: "Live",
     category: "Web Application",
-    highlight: "Release",
-    clientType: "Medical Industry"
+    highlight: "Health Platform",
+    clientType: "Healthcare"
   },
   {
     title: "MediGer",
-    subtitle: "A client of Ehecatl",
-    description: "MediGer is a specialized care center in Mexico City dedicated to comprehensive support for older adults, particularly those facing memory issues or dementia. They focus on combining medical expertise with empathetic, human-centered servic",
+    subtitle: "Eldercare Scheduling & Records Portal",
+    description: "Developed a medical records and scheduling portal using React and .NET to optimize patient care tracking.",
     live: "https://mediger.mx/",
     image: "/images/mediger.png",
     status: "Live",
     category: "Web Application",
-    highlight: "Release",
-    clientType: "Medical Industry"
+    highlight: "Eldercare Portal",
+    clientType: "Healthcare"
   },
 ];
 

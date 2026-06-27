@@ -12,29 +12,17 @@ const experience = [
     type: "Freelance",
     companyIcon: "mingcute:building-2-line",
     companyColor: "from-green-500 to-green-600",
-    description: "I implemented communication flows with ChatGPT by developing efficient APIs in .NET to process requests/responses with the OpenAI API, integrated MongoDB to store conversation histories and contextual data, improving the user experience with dynamic interfaces in Vue.js with real-time rendering of AI-generated responses.",
-    achievements: [
-      // "Engineered a scalable .NET API layer to orchestrate seamless communication between frontend clients and OpenAI's ChatGPT API, optimizing payload structuring and response handling for low-latency interactions.",
-      // "Architected a MongoDB database to store conversation histories with optimized document schemas, enabling context-aware follow-ups (e.g., user session continuity, personalized responses).",
-      // "Built a dynamic Vue.js frontend with real-time rendering of AI responses using WebSockets or Server-Sent Events (SSE), reducing perceived latency by 50%.",
-      // "Implemented UI features like typing indicators and response streaming to mimic natural conversation flow, boosting user engagement."
-    ],
+    description: "Developed AI-powered backends and scalable API integrations.",
     technologies: ["API ChatGPT", ".NET", "VueJS", "Microsoft SQL Server", "MongoDB", "Javascript"]
   },
   {
     role: "Software Developer",
-    company: " Telepro by PFS",
+    company: "Telepro by PFS",
     period: "July 2022 — December 2024",
     type: "Full-time",
     companyColor: "from-blue-500 to-blue-600",
     companyIcon: "mdi:company",
-    description: "I worked as a Full Stack developer, where I focused on modifying and improving an ASP.NET program to adapt it to the client's specific needs. All in an Azure environment for all stages of the software life cycle. I implemented new features and corrected errors, ensuring the stability and scalability of the system. I participated in the integration of external APIs and web services to expand the program's capabilities.",
-    achievements: [
-      // ".NET & Web Development: Built robust applications using C#, VB, JavaScript (jQuery), and modern frameworks (e.g., .NET Core, React), with responsive UIs powered by HTML5, CSS3, and Bootstrap.",
-      // "Database & Backend Integration: Designed and optimized SQL queries and database structures for efficient data retrieval and manipulation.",
-      // "Debugging & Root Cause Analysis: Leveraged logging (e.g., Application Insights) and testing frameworks to isolate and resolve complex backend failures.",
-      // "Prepare a STAR (Situation-Task-Action-Result) story about your credit bureau API challenge."
-    ],
+    description: "Maintained and scaled full-stack ASP.NET enterprise applications.",
     technologies: ["Azure", "ASP.NET", "Microsoft SQL Server", "JavaScript", "Git"]
   },
   {
@@ -44,14 +32,7 @@ const experience = [
     type: "Full-time",
     companyColor: "from-blue-500 to-blue-600",
     companyIcon: "mdi:company",
-    description: "I designed and developed a complete e-commerce as part of a one-month challenge, using Figma for UI/UX design, wireframe design,interactive prototypes and design systems, and React for the development and implementation of key functionalities such as a shopping cart.",
-    achievements: [
-      // "End-to-End Solution Delivery: Designed, developed, and implemented responsive web applications for clients using React and .NET, ensuring seamless integration with backend APIs.",
-      // "Modern Tech Stack: Leveraged React for dynamic frontends and .NET MVC for structured backend communication, enabling scalable and maintainable code.",
-      // "API Integration: Connected frontend interfaces with backend systems via RESTful APIs, ensuring real-time data management (e.g., CRUD operations, user authentication).",
-      // "User Experience Enhancements: Iterated on UI components (e.g., forms, dashboards) based on usability testing, reducing friction in key workflows.",
-      // "Design-Development Bridge: Translated Figma/Sketch mockups into functional code while advocating for frontend best practices (e.g., reusable components)."
-    ],
+    description: "Designed and developed responsive React frontends integrated with .NET APIs.",
     technologies: ["HTML / CSS", "JavaScript", "React", ".NET Core 3.1", "Figma", "JQuery"]
   },
   {
@@ -61,31 +42,17 @@ const experience = [
     type: "Full-time",
     companyColor: "from-blue-500 to-blue-600",
     companyIcon: "mdi:home-floor-basement",
-    description: "I designed and developed a complete e-commerce as part of a one-month challenge, using Figma for UI/UX design, wireframe design, interactive prototypes and design systems, and React for the development and implementation of key functionalities such as a shopping cart.",
-    achievements: [
-      // "Delivered a Full E-Commerce Solution in 1 Month: Successfully designed, developed, and deployed a functional e-commerce platform as part of a time-constrained challenge, demonstrating strong project management and execution skills.",
-      // "User-Centered Design Process: Created intuitive wireframes, high-fidelity mockups, and interactive prototypes in Figma, ensuring a seamless shopping experience.",
-      // "Mobile-First & Responsive Design: Prioritized accessibility and cross-device compatibility through thoughtful UI planning.",
-      // "Shopping Cart Functionality: Implemented core e-commerce features like cart management (add/remove items, quantity updates), demonstrating strong logic and state management skills.",
-      // "Proof of Concept for Future Scaling: Designed the system with modularity in mind, allowing for easy addition of features (e.g., payment gateways, user accounts)."
-    ],
+    description: "Built a custom React e-commerce application from scratch during a 1-month design sprint.",
     technologies: ["HTML / CSS", "JavaScript", "React", "TypeScript", "Figma"]
   },
   {
     role: "Software Developer",
     company: "Abarrotes Valle Verde",
-    period: "Juanary 2020 — October 2020",
+    period: "January 2020 — October 2020",
     type: "Full-time",
     companyColor: "from-blue-500 to-blue-600",
     companyIcon: "streamline-color:store-2-flat",
-    description: "I designed and implemented a point of sale (POS) system in a collaborative way, optimizing the sales process for 7 cashiers in the warehouse, inventory management, transaction processing, report generation and hardware integration.",
-    achievements: [
-      // "Streamlined Sales Process: Reduced transaction time by optimizing workflows for 7 cashiers, leading to faster customer service.",
-      // "Automated Inventory Tracking: Improved stock management with real-time updates, reducing manual errors and stock discrepancies.",
-      // "Seamless Hardware Integration: Successfully connected POS software with barcode scanners, receipt printers, and payment terminals for smooth operations.",
-      // "User-Friendly Interface: Designed an intuitive UI that minimized cashier training time and improved adoption rates.",
-      // "Automated Report Generation: Enabled real-time sales, inventory, and financial reports, helping management make informed business decisions."
-    ],
+    description: "Co-designed and deployed a custom POS system, streamlining cashier operations.",
     technologies: [".NET Framework 4.8", "Windows Form", "Microsoft SQL Server", "C#"]
   }
 ];
@@ -236,28 +203,8 @@ export default function ExperienceSection() {
                     transition={{ delay: 0.6 }}
                     className="space-y-3 md:space-y-4"
                   >
-                    <h4 className="text-base md:text-lg font-bold text-gray-800 dark:text-gray-200 flex items-center gap-2">
-                      <Icon icon="solar:cup-star-bold" className="text-amber-500" width={22} height={22} />
-                      Key Achievements
-                    </h4>
 
                     <div className="space-y-2 md:space-y-3">
-                      {exp.achievements.map((achievement, achIndex) => (
-                        <motion.div
-                          key={achIndex}
-                          initial={{ opacity: 0, x: -20 }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          transition={{ delay: 0.7 + achIndex * 0.1 }}
-                          className="flex items-start gap-3 md:gap-4 group/achievement hover:translate-x-1 md:hover:translate-x-2 transition-transform duration-300"
-                        >
-                          <div className="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center mt-0.5 shadow-md md:shadow-lg group-hover/achievement:scale-110 transition-transform duration-300">
-                            <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-white rounded-full" />
-                          </div>
-                          <span className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm md:text-base">
-                            {achievement}
-                          </span>
-                        </motion.div>
-                      ))}
                     </div>
                   </motion.div>
 

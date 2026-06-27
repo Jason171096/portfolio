@@ -112,21 +112,17 @@ export default function OverviewSection() {
                       Hello, I&apos;m Jason Martinez
                     </h3>
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
-                      <span className="font-bold text-purple-600 dark:text-purple-400">
-                        &nbsp; AI Engineer</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
-                      digital experiences that users love.
+                      <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and <span className="font-bold text-purple-600 dark:text-purple-400">AI Engineer</span> with <span className="font-bold text-green-600 dark:text-green-400">5+ years</span> of experience building scalable, high-performance web applications and intelligent systems.
                     </p>
                   </div>
 
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      My experience ranges from modifying and optimizing programs in .NET to creating modern user interfaces with React, always focused on improving the user experience and the efficiency of systems.
+                      Specialized in building modern React frontends, optimizing .NET backends, and managing SQL Server databases. Focused on delivering seamless user experiences and robust system architectures.
                     </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      During my career, I have worked on key projects where I have used technologies such as SQL Server for database management, Azure for deployment and management of cloud resources, and tools such as Azure Pipelines for continuous integration and deployment (CI/CD). In addition, I have cross-tested and reviewed Pull Requests (PR) to ensure code quality and consistency.
+                      Experienced in deploying cloud infrastructure on Azure, automating CI/CD pipelines, and ensuring code quality through strict PR reviews.
                     </p>
                   </div>
 
@@ -173,8 +169,7 @@ export default function OverviewSection() {
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Delivering high-quality projects across diverse domains, specializing in web applications,
-                    API development, and cloud integrations.
+                    Deliver full-stack web applications, custom API integrations, and cloud solutions for diverse global clients.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
