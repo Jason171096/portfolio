@@ -9,4 +9,3 @@ export { default as Navigation } from './Navigation';
 export { default as OverviewSection } from './OverviewSection';
 export { default as ProjectsSection } from './ProjectsSection';
 export { default as TechStackSection } from './TechStackSection';
-export { default as StudiesSection } from './StudiesSection';
